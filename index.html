@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск комбинаций</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        
+        h1 {
+            color: #444;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        table th,
+        table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        table th {
+            background-color: #f2f2f2;
+        }
+        
+        .info {
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #e8f4ff;
+            border-left: 4px solid #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Поиск комбинаций товаров</h1>
+        <div class="info">
+            <p>Это приложение позволяет искать комбинации товаров для заданного количества VP. Введите нужное количество VP и нажмите "Найти комбинацию".</p>
+            <p>Пример использования:</p>
+            <ol>
+                <li>Введите число в поле (например, 150).</li>
+                <li>Нажмите "Найти комбинацию".</li>
+                <li>Результат отобразится в таблице ниже.</li>
+            </ol>
+        </div>
+        <label for="vp-input">Введите нужное количество VP:</label>
+        <input type="number" id="vp-input" placeholder="Например, 150">
+        <button id="search-button">Найти комбинацию</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>VP</th>
+                    <th>Цена</th>
+                    <th>Магазин</th>
+                </tr>
+            </thead>
+            <tbody id="result-table">
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

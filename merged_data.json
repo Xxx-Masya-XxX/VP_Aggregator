@@ -1,0 +1,107 @@
+{
+    "1": {
+        "vp": 75,
+        "price": 139,
+        "site": "https://vapoint.ru/"
+    },
+    "2": {
+        "vp": 240,
+        "price": 289,
+        "site": "https://vapoint.ru/"
+    },
+    "3": {
+        "vp": 475,
+        "price": 459,
+        "site": "https://vapoint.ru/"
+    },
+    "4": {
+        "vp": 1000,
+        "price": 979,
+        "site": "https://vapoint.ru/"
+    },
+    "5": {
+        "vp": 1520,
+        "price": 1449,
+        "site": "https://vapoint.ru/"
+    },
+    "6": {
+        "vp": 2000,
+        "price": 1959,
+        "site": "https://vapoint.ru/"
+    },
+    "7": {
+        "vp": 2575,
+        "price": 2449,
+        "site": "https://vapoint.ru/"
+    },
+    "8": {
+        "vp": 3575,
+        "price": 3379,
+        "site": "https://vapoint.ru/"
+    },
+    "9": {
+        "vp": 5350,
+        "price": 4949,
+        "site": "https://vapoint.ru/"
+    },
+    "10": {
+        "vp": 8700,
+        "price": 7799,
+        "site": "https://vapoint.ru/"
+    },
+    "11": {
+        "vp": 11000,
+        "price": 9899,
+        "site": "https://vapoint.ru/"
+    },
+    "12": {
+        "vp": 240,
+        "price": 289,
+        "site": "https://vpsale.ru/"
+    },
+    "13": {
+        "vp": 475,
+        "price": 459,
+        "site": "https://vpsale.ru/"
+    },
+    "14": {
+        "vp": 1000,
+        "price": 969,
+        "site": "https://vpsale.ru/"
+    },
+    "15": {
+        "vp": 1520,
+        "price": 1449,
+        "site": "https://vpsale.ru/"
+    },
+    "16": {
+        "vp": 2000,
+        "price": 1938,
+        "site": "https://vpsale.ru/"
+    },
+    "17": {
+        "vp": 2575,
+        "price": 2449,
+        "site": "https://vpsale.ru/"
+    },
+    "18": {
+        "vp": 3575,
+        "price": 3369,
+        "site": "https://vpsale.ru/"
+    },
+    "19": {
+        "vp": 5350,
+        "price": 4929,
+        "site": "https://vpsale.ru/"
+    },
+    "20": {
+        "vp": 8705,
+        "price": 7769,
+        "site": "https://vpsale.ru/"
+    },
+    "21": {
+        "vp": 11001,
+        "price": 9799,
+        "site": "https://vpsale.ru/"
+    }
+}
